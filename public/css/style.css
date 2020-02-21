@@ -1,0 +1,193 @@
+navbar#photos{
+	width: 10px;
+	height: auto;
+}
+.profile-card-1 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  height:368px;
+  border:none;
+}
+
+.profile-card-1 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.profile-card-1 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.profile-card-1 h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size:25px;
+}
+.profile-card-1 h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top:10px;
+}
+.profile-card-1 i {
+  display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+.profile-card-1 .icon-block{
+    float:left;
+    width:100%;
+    margin-top:15px;
+}
+.profile-card-1 .icon-block a{
+    text-decoration:none;
+}
+.profile-card-1 i:hover {
+  background-color:#fff;
+  color:#2E3434;
+  text-decoration:none;
+}
+
+.profile-card-1 .background {
+  width:100%;
+  vertical-align: top;
+  opacity: 0.9;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+   -webkit-transform: scale(1.8);
+  transform: scale(2.8);
+}
+
+.card-text{
+	color: white;
+}
+
+.home{
+  padding: 35px;
+	padding-bottom: 90px; 
+  outline: 1px solid rgb(195,148,47);
+  outline-offset: -5px;
+  outline-ra
+}
+
+.more{
+	margin-top: 25px;
+}
+
+.arctic{
+  padding-top: 50px;
+  margin: 5px;
+  outline-offset: -5px solid rgb(175,128,27);
+}
+
+.about{
+  width: 540px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.line {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid black;
+}
+
+#btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #888;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.4rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #btn {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+#btn:hover {
+  color: #888;
+  text-decoration: none;
+}
+
+#btn:focus, .btn.focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(120, 194, 173, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(120, 194, 173, 0.25);
+}
+
+#btn.disabled, .btn:disabled {
+  opacity: 0.65;
+}
+
+  /*==================== 
+  Footer 
+  ====================== */
+
+  /* Main Footer */
+  footer .main-footer{  padding: 20px 0;
+      margin-top: 20px;
+    background: #2b3554;}
+  footer ul{  padding-left: 0;  list-style: none;}
+
+  /* Footer Top */
+  .footer-top{  background: #252525;  padding-bottom: 30px; margin-bottom: 30px;  border-bottom: 3px solid #222;}
+
+  /* Footer transparent */
+  footer.transparent .footer-top, footer.transparent .main-footer{  background: transparent;}
+  footer.transparent .footer-copyright{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+
+  /* Footer light */
+  footer.light .footer-top{ background: #f9f9f9;}
+  footer.light .main-footer{  background: #f9f9f9;}
+  footer.light .footer-copyright{ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+
+  /* Footer 4 */
+  .footer- .logo {    display: inline-block;}
+
+  .pic{
+    width: 5rem; height: 5rem; text-align: center;
+  }
+
+  .pic-table{
+    width: 9rem; height: 9rem; text-align: center;
+  }
